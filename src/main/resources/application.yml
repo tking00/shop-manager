@@ -1,0 +1,15 @@
+server:
+  port: 8018
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: sa
+    password:
+    url: jdbc:mysql://10.14.3.244:3306/test1?characterEncoding=UTF-8&useSSL=false
+  jpa:
+    database: MySQL
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
